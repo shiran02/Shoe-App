@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">shoe App</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+    <string name="topic1">Lets</string>
+    <string name="topic2">Get Started</string>
+
+
+    <string name="shoe_one">Jordhan Delta</string>
+    <string name="shoe_two">Vintage Sport</string>
+    <string name="shoe_three">Zeven Blazer</string>
+    <string name="shoe_four">WoodLand shoe</string>
+    <string name="shoe_five">Fila shoe</string>
+    <string name="shoe_six">Leecoper shoe</string>
+
+    <string name="shoe_price3">8.00</string>
+
+    <string name="shoe_price1">89.00</string>
+    <string name="shoe_price2">89.00</string>
+
+    <string name="shoe_price4">89.00</string>
+    <string name="shoe_price5">89.00</string>
+    <string name="shoe_price6">89.00</string>
+    <string name="coin">$</string>
+
+
+    <string name="shoe_brand1">Men shoe</string>
+    <string name="shoe_brand2">Basketball shoe</string>
+    <string name="shoe_brand3">Volleyball shoe</string>
+    <string name="shoe_brand4">Office shoe</string>
+    <string name="shoe_brand5">Office shoe</string>
+    <string name="shoe_brand6">office shoee</string>
+
+
+    <string name="description">Description</string>
+    <string name="Des_one">The Zeven Blazer reborts the legendary\n
+    design that has reigned supreme since\n
+    1987.Crossing street fashion with sport.\n it
+    take the same lightweight cushioning .</string>
+
+    <string name="btn_oder">Buy Now</string>
+
+
+    <string name="qty">Quantity</string>
+    <string name="size">Shoe Size</string>
+    <string name="color">Color</string>
+    <string name="total">Total</string>
+    <string name="p_num">Phone Number</string>
+    <string name="address">Address</string>
+
+
+    <string name="mob_number">Mobile Number</string>
+    <string name="h_address">Home Address</string>
+
+    <string name="hint_text">Qty</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_cart"
+            android:title="Order List">
+        </item>
+        <item android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_rate"
+            android:title="Rate Us">
+        </item>
+        <item android:id="@+id/nav_reviewRate"
+            android:icon="@drawable/ic_rate_review"
+            android:title="Review Rate">
+        </item>
+        </group>
+
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/group2">
+        <item android:id="@+id/nav_Policy"
+            android:icon="@drawable/ic_baseline_policy_24"
+            android:title="Privacy Policy">
+        </item>
+        <item android:id="@+id/nav_share"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="Share">
+        </item>
+    </group>
+
+</menu>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/cusromer_reg_back"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".profilePart.CustomerRegPart">
+
+    <ImageView
+        android:id="@+id/cus_imag_view"
+        android:layout_gravity="center"
+        android:layout_width="111dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="10sp"
+        app:srcCompat="@drawable/imageview" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="0sp"
+        android:paddingTop="24sp">
+
+
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/curoner_prof_name"
+            android:hint="Customer Name"
+            android:textColorHint="#AFDAE6"
+            android:layout_width="340dp"
+            android:textSize="25dp"
+            android:paddingBottom="12dp"
+            android:textColor="#AFDAE6"
+            android:textStyle="normal"
+            android:layout_marginTop="-14dp"
+            android:backgroundTint="#AFDAE6"
+            android:layout_height="79dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="0sp"
+        android:paddingTop="24sp">
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/cusemail"
+            android:hint="Email"
+            android:textColorHint="#AFDAE6"
+            android:layout_width="340dp"
+            android:textSize="25dp"
+            android:paddingBottom="12dp"
+            android:textColor="#AFDAE6"
+            android:textStyle="normal"
+            android:layout_marginTop="-12dp"
+            android:backgroundTint="#AFDAE6"
+            android:layout_height="79dp"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="0sp"
+        android:paddingTop="24sp">
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/customer_mob_num"
+            android:hint="Mobile Number"
+            android:textColorHint="#AFDAE6"
+            android:layout_width="340dp"
+            android:textSize="25dp"
+            android:paddingBottom="12dp"
+            android:textColor="#AFDAE6"
+            android:textStyle="normal"
+            android:layout_marginTop="-12dp"
+            android:backgroundTint="#AFDAE6"
+            android:layout_height="79dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="0sp"
+        android:paddingTop="24sp">
+
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/customer_password"
+            android:hint="Password"
+            android:textColorHint="#AFDAE6"
+            android:layout_width="340dp"
+            android:textSize="25dp"
+            android:paddingBottom="12dp"
+            android:textColor="#AFDAE6"
+            android:textStyle="normal"
+            android:layout_marginTop="-12dp"
+            android:backgroundTint="#AFDAE6"
+            android:layout_height="79dp"/>
+
+
+    </LinearLayout>
+
+
+    <android.widget.Button
+        android:id="@+id/image_browse_btn"
+        android:layout_width="307dp"
+        android:layout_height="52dp"
+
+        android:backgroundTint="#1AA1C6"
+
+        android:transitionName="btn_tran"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:text="Browse Image"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:elevation="0dp"
+        android:textColor="@color/white"/>
+
+
+
+
+
+    <android.widget.Button
+        android:id="@+id/cuslogin_btn"
+        android:layout_width="307dp"
+        android:layout_height="52dp"
+
+        android:background="@drawable/profileback"
+
+        android:transitionName="btn_tran"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:text="SIGN IN"
+        android:layout_gravity="center"
+        android:elevation="0dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/cusalreadyHaveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:textSize="11dp"
+        android:textColor="@color/white"
+        android:text="Already have an account? Login here"
+        android:transitionName="login_sign_up_tran"
+        android:layout_gravity="center"
+        android:elevation="0dp"
+        android:layout_marginTop="2dp"/>
+
+</LinearLayout>

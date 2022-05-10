@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SellerPart.SellerActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="210sp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/sellerback"
+        android:orientation="horizontal">
+
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/red"
+                android:text="Well Come"
+                android:layout_marginTop="10dp"
+                android:textSize="30dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/yourName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Your Name"
+                android:textColor="@color/white"
+                android:textSize="29sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/yourEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="Your Email Address"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:text="Phone Number"
+                android:layout_marginTop="10dp"
+                android:textSize="20dp"
+                android:textStyle="normal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/sport"
+                    android:layout_width="381dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="19dp"
+                    android:layout_marginBottom="15dp">
+
+                    <LinearLayout
+                        android:id="@+id/sport_shoe"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="20sp"
+                        android:background="@drawable/bg6">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="270dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_weight="1">
+
+
+                                    <TextView
+
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        android:layout_marginTop="33dp"
+                                        android:text="SportS Shoe"
+                                        android:textColor="#000000"
+                                        android:textSize="19sp"
+                                        android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1">
+
+
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="120dp"
+                                    android:layout_marginTop="-0dp"
+                                    android:layout_marginLeft="5dp"
+                                    app:srcCompat="@drawable/l_pic" />
+
+                            </LinearLayout>
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/Officeshoes"
+                    android:layout_width="381dp"
+                    android:layout_height="160dp"
+                    android:layout_marginTop="15dp"
+                    app:cardCornerRadius="19dp"
+                    android:layout_marginBottom="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="20sp"
+                        android:background="@drawable/bg6">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="-10dp"
+                            android:layout_gravity="center"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            >
+
+                            <LinearLayout
+                                android:layout_width="270dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical"
+                                android:layout_weight="1">
+
+
+                                <TextView
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="33dp"
+                                    android:text="Office Shoes"
+                                    android:textColor="#000000"
+                                    android:textSize="19sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1">
+
+
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="-0dp"
+                                    android:layout_marginLeft="5dp"
+                                    app:srcCompat="@drawable/p" />
+
+                            </LinearLayout>
+
+
+
+
+
+
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+                </androidx.cardview.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/reviewBtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:background="@drawable/back"
+        android:transitionName="btn_tran"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp"
+        android:text="My Review"
+        android:layout_gravity="center"
+        android:elevation="0dp"
+        android:textColor="@color/white"/>
+
+    <android.widget.Button
+        android:id="@+id/login_bn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+
+        android:background="@drawable/back"
+        android:onClick="logout"
+        android:transitionName="btn_tran"
+        android:textSize="15sp"
+        android:layout_marginTop="8dp"
+        android:text="Log out"
+        android:layout_gravity="center"
+        android:elevation="0dp"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>

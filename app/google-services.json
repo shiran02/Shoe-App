@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1054842631172",
+    "project_id": "shoe-app-413fa",
+    "storage_bucket": "shoe-app-413fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054842631172:android:566cc7a863a587268e7151",
+        "android_client_info": {
+          "package_name": "com.cadenza.shoeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054842631172-uiieb42htsnrhfr3dhbsebapb59nh5ph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cadenza.shoeapp",
+            "certificate_hash": "92f5262406fe9c9d95427005af4a371c041e1e14"
+          }
+        },
+        {
+          "client_id": "1054842631172-ff6jmdj4osie74rmhrr2j7pjclgq9tup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7viSHXjndc0gOkMh-1Q6mfsv6d1LCK8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054842631172-ff6jmdj4osie74rmhrr2j7pjclgq9tup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

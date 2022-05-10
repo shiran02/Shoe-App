@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CustermerPart.UpdateOrder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="@string/size"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/update_size"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="69dp"
+                android:background="@color/gray"
+                android:spinnerMode ="dropdown"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.498" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="@string/color"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/update_color"
+                android:layout_width="149dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="123dp"
+                android:background="@color/gray"
+                android:spinnerMode ="dropdown"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.498" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="@string/qty"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/Update_qty_shoe"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="135dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="@string/total"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/update_total"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="86dp"
+                android:text=""
+                android:textColor="@color/black"
+
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/cal_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="1dp"
+                android:backgroundTint="@color/teal_200"
+                android:padding="10dp"
+                android:text="Cal"
+                android:textAllCaps="false"
+                android:textColor="@color/purple_700"
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="1dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:text="User Name"
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/User_name_field"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="49dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="160dp"
+            app:srcCompat="@drawable/background" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical"
+            android:padding="0sp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="@string/p_num"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+
+
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="@string/mob_number"
+                android:textColor="@color/white"
+                android:textColorHint="#FF003A"
+
+
+                app:boxStrokeColor="#FF003A"
+                app:helperTextTextColor="#EF0000"
+                app:hintTextColor="#FF003A"
+                app:startIconDrawable="@drawable/ic_phone"
+                app:startIconTint="@color/mtrl_textinput_default_box_stroke_color">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/Up_mob_num_field"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="number"
+                    android:shadowColor="#FBC02D"
+
+                    android:textAllCaps="false"
+                    android:textColor="#FBC02D"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FBC02D"
+                    android:textSize="24dp"
+                    android:transitionName="password_tran" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:text="@string/address"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.textfield.TextInputLayout
+
+
+                android:hint="@string/h_address"
+                app:boxStrokeColor="#FF003A"
+                android:textColor="@color/white"
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:hintTextColor="#FF003A"
+                android:textColorHint="#FF003A"
+                app:startIconDrawable="@drawable/ic_home"
+                app:startIconTint="@color/mtrl_textinput_default_box_stroke_color"
+                app:helperTextTextColor="#EF0000"
+                android:layout_marginTop="10dp"
+
+                android:layout_marginLeft="10dp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/up_addressfield"
+                    android:layout_width="340dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:inputType="text"
+                    android:shadowColor="#FBC02D"
+                    android:textAllCaps="false"
+                    android:textColor="#FBC02D"
+                    android:textColorHighlight="#FFFFFF"
+                    android:textColorHint="#FBC02D"
+                    android:textSize="24dp"
+                    android:transitionName="password_tran"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/update_btn"
+            android:layout_width="219dp"
+            android:layout_height="55sp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="237dp"
+            android:backgroundTint="@color/teal_200"
+            android:padding="10dp"
+            android:text="Update Data"
+            android:textAllCaps="false"
+            android:textColor="@color/purple_700"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/delete_btn"
+            android:layout_width="219dp"
+            android:layout_height="55sp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="290dp"
+            android:backgroundTint="@color/teal_200"
+            android:padding="10dp"
+            android:text="Delete Data"
+
+            android:textAllCaps="false"
+            android:textColor="@color/red"
+            android:textSize="20sp" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
